@@ -38,7 +38,7 @@ app.get('/trends/*', awaitHandlerFactory(async (req, res) => {
     res.send(req.query);
 }));
 
-var server = app.listen(8081, () => {
+var server = app.listen(6969, () => {
     var host = server.address().address;
     var port = server.address().port;
     console.log(`服务器已经启动，使用http://${host}:${port}`);
