@@ -1,0 +1,29 @@
+{
+    "default": {
+        "timelineData": [
+            {
+                "time": "1514864640",
+                "formattedTime": "Jan 1, 2018 at 10:44 PM",
+                "formattedAxisTime": "10:44 PM",
+                "value": [
+                    50
+                ],
+                "formattedValue": [
+                    "50"
+                ]
+            },
+            {
+                "time": "1514864700",
+                "formattedTime": "Jan 1, 2018 at 10:45 PM",
+                "formattedAxisTime": "10:45 PM",
+                "value": [
+                    100
+                ],
+                "formattedValue": [
+                    "100"
+                ]
+            }
+        ],
+        "averages": []
+    }
+}
