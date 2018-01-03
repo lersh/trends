@@ -6,7 +6,8 @@ var transport = nodemailer.createTransport({
     port: 994,
     secure: true,
     auth: {
-
+        user: '',
+        pass: ''
     }
 });
 var mailOptions = {
