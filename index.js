@@ -15,7 +15,7 @@ const awaitHandlerFactory = (middleware) => {
 }
 
 app.get('/', awaitHandlerFactory(async (req, res) => {
-    var myTrends = new trends('bitcoin', new Date('2013-01-01'), new Date(Date.now()), 'CN');
+    var myTrends = new trends('bitcoin', new Date(Date.now() - 4 * 3600 * 1000), new Date(Date.now()), 'CN');
     var json = await myTrends.getJson();
     res.send(json);
 }));
